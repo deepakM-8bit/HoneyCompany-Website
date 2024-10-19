@@ -1,0 +1,163 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+@keyframes appear{
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+.an-me{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+.navbar{
+    padding: 0%;
+    background: #ffb00f;
+    background: linear-gradient(124deg, #ffb00f 0%,
+     rgba(135,102,0,1) 55%, rgba(84,62,0,1) 100%);
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 350;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: #ffb00f;
+}
+.navbar-toggler-icon{
+    outline: none;
+    color: #fff;
+}
+.brand{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-family:"Dancing Script", serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+#main{
+    background-image: url(./Images/honey.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+}
+#main h1{
+    margin-bottom: 15px;
+      font-family:"Dancing Script", serif;
+      font-size: 65px;
+      font-weight: 900;
+      color: #fff;
+ }
+ #main span{
+        font-family: "Abril Fatface", serif;
+        font-weight: 700;
+        font-size: 50px;
+ }
+ .pure{
+    color:#fabc2a;
+ }
+ .natural{
+    color: #5ee007;
+ }
+ .del{
+    color: #6b0619;
+ }
+
+ #main .content{
+    margin-top: 150px;
+ }
+.btn{
+    background-color:#ffb00f ;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+}
+.btn:hover{
+    color: #ffb00f;
+    background-color: #fff;
+}
+.why-us{
+    font-size: 35px;
+    font-weight: 650;
+}
+.carousel-caption h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-product{
+    border: none;
+    transition: transform 0.5s;
+}
+.card-product:hover{
+    transform: scale(1.1);
+}
+.card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.card-title:hover{
+    color: #ffb00f;
+}
+.region-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: #1a6301;
+}
+.testimonials{
+    border-left: 4px solid #ffb00f;
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+#testimonials .title , .product-title{
+    font-size: 45px;
+    font-weight: 700; 
+    font-stretch: ultra-expanded;  
+}
+.card-header{
+    margin: 0;
+    padding: 0;
+}
+.card-header h3{
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+#footer{
+    padding: 0%;
+    background: #ffb00f;
+    background: linear-gradient(124deg, #ffb00f 0%,
+     rgba(135,102,0,1) 55%, rgba(84,62,0,1) 100%);
+
+}
+.contact-us{
+    padding-left:150px ;
+}
